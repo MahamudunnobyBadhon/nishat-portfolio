@@ -1,0 +1,29 @@
+.animate-gradient {
+    background-size: 300%;
+    background-image: linear-gradient(
+      90deg,
+      #69b9ea, /* Orange */
+      #007bff, /* Blue */
+      #c6cdd1, 
+
+      #ff7a00 
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animatedGradient 9s ease infinite alternate;
+}
+
+@keyframes animatedGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

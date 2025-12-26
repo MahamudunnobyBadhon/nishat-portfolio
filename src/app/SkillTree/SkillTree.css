@@ -1,0 +1,56 @@
+.tree-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.trunk {
+  width: 10px;
+  background-color: #8b5e3c;
+  position: relative;
+}
+
+.branch {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  background-color: #8b5e3c;
+  top: 20px;
+}
+
+.branch.left {
+  transform-origin: left;
+  left: -100px;
+  top: 30px;
+}
+
+.branch.right {
+  transform-origin: right;
+  right: -100px;
+  top: 60px;
+}
+
+.leaf {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background-color: #3b7a57;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.leaf.left {
+  left: -150px;
+  top: 20px;
+}
+
+.leaf.right {
+  right: -150px;
+  top: 50px;
+}
