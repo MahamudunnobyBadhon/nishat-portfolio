@@ -114,7 +114,7 @@ const MediAppointCare = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-[#1a1a2e]">
+      <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-[#FBFBFB] dark:bg-[#252734] tracking-wider font-mon">
         <div className="max-w-7xl mx-auto">
           {/* Back Button */}
           <Link href="/#projects">
@@ -145,7 +145,7 @@ const MediAppointCare = () => {
                   transition={{ delay: 0.2 }}
                   className="inline-block mb-4"
                 >
-                  <span className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-sm font-bold shadow-lg">
+                  <span className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-sm font-[600] shadow-lg">
                     ⭐ Featured Full-Stack Project
                   </span>
                 </motion.div>
@@ -155,7 +155,7 @@ const MediAppointCare = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
-                  className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4"
+                  className="text-4xl md:text-5xl lg:text-6xl font-[700] tracking-wider mb-4"
                 >
                   <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-800 bg-clip-text text-transparent">
                     MediAppointCare
@@ -167,7 +167,7 @@ const MediAppointCare = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4 }}
-                  className="text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-3 font-semibold"
+                  className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-3 font-[600] tracking-wide"
                 >
                   Hospital Management System
                 </motion.p>
@@ -179,7 +179,7 @@ const MediAppointCare = () => {
                   transition={{ delay: 0.5 }}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 rounded-full shadow-md border border-gray-200 dark:border-gray-700 mb-6"
                 >
-                  <span className="text-green-600 dark:text-green-400 font-bold">
+                  <span className="text-green-600 dark:text-green-400 font-[600]">
                     ●
                   </span>
                   <span className="text-gray-700 dark:text-gray-300 font-medium">
@@ -200,7 +200,7 @@ const MediAppointCare = () => {
                       <div className="text-sm text-gray-500 dark:text-gray-400">
                         Users
                       </div>
-                      <div className="font-bold text-gray-900 dark:text-white">
+                      <div className="font-[600] tracking-wide text-gray-900 dark:text-white">
                         5+ Roles
                       </div>
                     </div>
@@ -211,7 +211,7 @@ const MediAppointCare = () => {
                       <div className="text-sm text-gray-500 dark:text-gray-400">
                         API
                       </div>
-                      <div className="font-bold text-gray-900 dark:text-white">
+                      <div className="font-[600] tracking-wide text-gray-900 dark:text-white">
                         50+ Endpoints
                       </div>
                     </div>
@@ -222,7 +222,7 @@ const MediAppointCare = () => {
                       <div className="text-sm text-gray-500 dark:text-gray-400">
                         Status
                       </div>
-                      <div className="font-bold text-green-600 dark:text-green-400">
+                      <div className="font-[600] tracking-wide text-green-600 dark:text-green-400">
                         Live & Active
                       </div>
                     </div>
@@ -236,22 +236,22 @@ const MediAppointCare = () => {
                   transition={{ delay: 0.7 }}
                   className="flex flex-wrap justify-center gap-3 mb-8"
                 >
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-green-100 to-green-200 dark:from-green-900 dark:to-green-800 text-green-800 dark:text-green-200 rounded-full text-sm font-bold shadow-md border-2 border-green-300 dark:border-green-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-green-100 to-green-200 dark:from-green-900 dark:to-green-800 text-green-800 dark:text-green-200 rounded-full text-sm font-[600] shadow-md border-2 border-green-300 dark:border-green-700">
                     Node.js 14.15.1
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 text-blue-800 dark:text-blue-200 rounded-full text-sm font-bold shadow-md border-2 border-blue-300 dark:border-blue-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 text-blue-800 dark:text-blue-200 rounded-full text-sm font-[600] shadow-md border-2 border-blue-300 dark:border-blue-700">
                     React 16.13.1
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-green-100 to-emerald-200 dark:from-green-900 dark:to-emerald-800 text-green-800 dark:text-green-200 rounded-full text-sm font-bold shadow-md border-2 border-green-300 dark:border-green-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-green-100 to-emerald-200 dark:from-green-900 dark:to-emerald-800 text-green-800 dark:text-green-200 rounded-full text-sm font-[600] shadow-md border-2 border-green-300 dark:border-green-700">
                     MongoDB
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-purple-100 to-purple-200 dark:from-purple-900 dark:to-purple-800 text-purple-800 dark:text-purple-200 rounded-full text-sm font-bold shadow-md border-2 border-purple-300 dark:border-purple-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-purple-100 to-purple-200 dark:from-purple-900 dark:to-purple-800 text-purple-800 dark:text-purple-200 rounded-full text-sm font-[600] shadow-md border-2 border-purple-300 dark:border-purple-700">
                     Express.js
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-orange-100 to-orange-200 dark:from-orange-900 dark:to-orange-800 text-orange-800 dark:text-orange-200 rounded-full text-sm font-bold shadow-md border-2 border-orange-300 dark:border-orange-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-orange-100 to-orange-200 dark:from-orange-900 dark:to-orange-800 text-orange-800 dark:text-orange-200 rounded-full text-sm font-[600] shadow-md border-2 border-orange-300 dark:border-orange-700">
                     Redux
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-pink-100 to-pink-200 dark:from-pink-900 dark:to-pink-800 text-pink-800 dark:text-pink-200 rounded-full text-sm font-bold shadow-md border-2 border-pink-300 dark:border-pink-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-pink-100 to-pink-200 dark:from-pink-900 dark:to-pink-800 text-pink-800 dark:text-pink-200 rounded-full text-sm font-[600] shadow-md border-2 border-pink-300 dark:border-pink-700">
                     Material-UI
                   </span>
                 </motion.div>
@@ -274,7 +274,7 @@ const MediAppointCare = () => {
                         boxShadow: "0 10px 30px rgba(37, 99, 235, 0.3)",
                       }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl font-bold text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
+                      className="px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-xl font-[600] text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
                     >
                       <span className="text-2xl">🌐</span>
                       View Live Demo
@@ -291,7 +291,7 @@ const MediAppointCare = () => {
                         boxShadow: "0 10px 30px rgba(0, 0, 0, 0.3)",
                       }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white rounded-xl font-bold text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
+                      className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white rounded-xl font-[600] text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
                     >
                       <span className="text-2xl">💻</span>
                       View Source Code
@@ -351,7 +351,7 @@ const MediAppointCare = () => {
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`px-6 py-3 font-semibold capitalize transition-colors ${
+                  className={`px-6 py-3 font-[600] capitalize transition-colors ${
                     activeTab === tab
                       ? "border-b-4 border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
                       : "text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800/50"
@@ -375,7 +375,7 @@ const MediAppointCare = () => {
             {activeTab === "overview" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     🎯 Overview
                   </h2>
                   <p className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed mb-6">
@@ -392,7 +392,7 @@ const MediAppointCare = () => {
                         className="bg-white dark:bg-gray-800 p-6 rounded-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-200 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500"
                       >
                         <div className="text-4xl mb-3">{highlight.icon}</div>
-                        <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+                        <h3 className="text-lg font-[600] tracking-wide mb-2 text-gray-900 dark:text-white">
                           {highlight.title}
                         </h3>
                         <p className="text-gray-700 dark:text-gray-300">
@@ -404,39 +404,39 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🌟 Project Impact
                   </h2>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                     <div className="text-center bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border-2 border-blue-200 dark:border-blue-700 hover:shadow-xl transition-shadow">
-                      <div className="text-4xl md:text-5xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+                      <div className="text-3xl md:text-4xl font-[700] tracking-wide text-blue-600 dark:text-blue-400 mb-2">
                         5+
                       </div>
-                      <div className="text-gray-800 dark:text-gray-300 font-semibold">
+                      <div className="text-gray-800 dark:text-gray-300 font-[500] tracking-wide">
                         User Roles
                       </div>
                     </div>
                     <div className="text-center bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border-2 border-green-200 dark:border-green-700 hover:shadow-xl transition-shadow">
-                      <div className="text-4xl md:text-5xl font-bold text-green-600 dark:text-green-400 mb-2">
+                      <div className="text-4xl md:text-5xl font-[600] text-green-600 dark:text-green-400 mb-2">
                         50+
                       </div>
-                      <div className="text-gray-800 dark:text-gray-300 font-semibold">
+                      <div className="text-gray-800 dark:text-gray-300 font-[600]">
                         API Endpoints
                       </div>
                     </div>
                     <div className="text-center bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border-2 border-orange-200 dark:border-orange-700 hover:shadow-xl transition-shadow">
-                      <div className="text-4xl md:text-5xl font-bold text-orange-600 dark:text-orange-400 mb-2">
+                      <div className="text-4xl md:text-5xl font-[600] text-orange-600 dark:text-orange-400 mb-2">
                         30K+
                       </div>
-                      <div className="text-gray-800 dark:text-gray-300 font-semibold">
+                      <div className="text-gray-800 dark:text-gray-300 font-[600]">
                         Medicines
                       </div>
                     </div>
                     <div className="text-center bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border-2 border-purple-200 dark:border-purple-700 hover:shadow-xl transition-shadow">
-                      <div className="text-4xl md:text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">
+                      <div className="text-4xl md:text-5xl font-[600] text-purple-600 dark:text-purple-400 mb-2">
                         100%
                       </div>
-                      <div className="text-gray-800 dark:text-gray-300 font-semibold">
+                      <div className="text-gray-800 dark:text-gray-300 font-[600]">
                         Digital EMR
                       </div>
                     </div>
@@ -449,7 +449,7 @@ const MediAppointCare = () => {
             {activeTab === "features" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     👨‍⚕️ For Doctors
                   </h2>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -470,7 +470,7 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🏥 For Hospitals
                   </h2>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -491,7 +491,7 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🧑‍⚕️ For Patients
                   </h2>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -517,7 +517,7 @@ const MediAppointCare = () => {
             {activeTab === "tech" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🛠️ Backend Stack
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -526,7 +526,7 @@ const MediAppointCare = () => {
                         key={index}
                         className="bg-white dark:bg-gray-800 p-5 rounded-lg hover:shadow-xl transition-all duration-300 border-2 border-blue-200 dark:border-blue-800 hover:border-blue-400 dark:hover:border-blue-500"
                       >
-                        <div className="font-bold text-lg text-blue-700 dark:text-blue-300">
+                        <div className="font-[600] text-lg text-blue-700 dark:text-blue-300">
                           {tech.name}
                         </div>
                         <div className="text-sm text-gray-700 dark:text-gray-300 mt-1">
@@ -538,7 +538,7 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     ⚛️ Frontend Stack
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -547,7 +547,7 @@ const MediAppointCare = () => {
                         key={index}
                         className="bg-white dark:bg-gray-800 p-5 rounded-lg hover:shadow-xl transition-all duration-300 border-2 border-purple-200 dark:border-purple-800 hover:border-purple-400 dark:hover:border-purple-500"
                       >
-                        <div className="font-bold text-lg text-purple-700 dark:text-purple-300">
+                        <div className="font-[600] text-lg text-purple-700 dark:text-purple-300">
                           {tech.name}
                         </div>
                         <div className="text-sm text-gray-700 dark:text-gray-300 mt-1">
@@ -559,7 +559,7 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-green-50 to-teal-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🔒 Security Features
                   </h2>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -593,7 +593,7 @@ const MediAppointCare = () => {
               <div className="space-y-8">
                 {/* System Architecture Diagram */}
                 <section className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🏗️ System Architecture
                   </h2>
                   <div className="space-y-6">
@@ -601,12 +601,12 @@ const MediAppointCare = () => {
                     <div className="grid gap-4">
                       {/* Client Layer */}
                       <div className="bg-gradient-to-r from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 p-6 rounded-lg border-2 border-blue-300 dark:border-blue-600">
-                        <h3 className="font-bold text-xl mb-3 text-blue-900 dark:text-blue-100">
+                        <h3 className="font-[600] text-xl mb-3 text-blue-900 dark:text-blue-100">
                           📱 Client Layer
                         </h3>
                         <div className="flex items-center justify-around flex-wrap gap-3">
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               React Frontend
                             </span>
                           </div>
@@ -614,7 +614,7 @@ const MediAppointCare = () => {
                             →
                           </span>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Redux Store
                             </span>
                           </div>
@@ -622,7 +622,7 @@ const MediAppointCare = () => {
                             →
                           </span>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Redux Persist
                             </span>
                           </div>
@@ -631,12 +631,12 @@ const MediAppointCare = () => {
 
                       {/* API Layer */}
                       <div className="bg-gradient-to-r from-green-100 to-green-200 dark:from-green-900 dark:to-green-800 p-6 rounded-lg border-2 border-green-300 dark:border-green-600">
-                        <h3 className="font-bold text-xl mb-3 text-green-900 dark:text-green-100">
+                        <h3 className="font-[600] text-xl mb-3 text-green-900 dark:text-green-100">
                           🔌 API Layer
                         </h3>
                         <div className="flex items-center justify-around flex-wrap gap-3">
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Express Server
                             </span>
                           </div>
@@ -644,7 +644,7 @@ const MediAppointCare = () => {
                             →
                           </span>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               JWT Middleware
                             </span>
                           </div>
@@ -652,7 +652,7 @@ const MediAppointCare = () => {
                             →
                           </span>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Route Handlers
                             </span>
                           </div>
@@ -661,12 +661,12 @@ const MediAppointCare = () => {
 
                       {/* Business Logic Layer */}
                       <div className="bg-gradient-to-r from-purple-100 to-purple-200 dark:from-purple-900 dark:to-purple-800 p-6 rounded-lg border-2 border-purple-300 dark:border-purple-600">
-                        <h3 className="font-bold text-xl mb-3 text-purple-900 dark:text-purple-100">
+                        <h3 className="font-[600] text-xl mb-3 text-purple-900 dark:text-purple-100">
                           ⚙️ Business Logic
                         </h3>
                         <div className="flex items-center justify-around flex-wrap gap-3">
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Controllers
                             </span>
                           </div>
@@ -674,7 +674,7 @@ const MediAppointCare = () => {
                             ⟷
                           </span>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Mongoose Models
                             </span>
                           </div>
@@ -683,22 +683,22 @@ const MediAppointCare = () => {
 
                       {/* Data Layer */}
                       <div className="bg-gradient-to-r from-orange-100 to-orange-200 dark:from-orange-900 dark:to-orange-800 p-6 rounded-lg border-2 border-orange-300 dark:border-orange-600">
-                        <h3 className="font-bold text-xl mb-3 text-orange-900 dark:text-orange-100">
+                        <h3 className="font-[600] text-xl mb-3 text-orange-900 dark:text-orange-100">
                           💾 Data Layer
                         </h3>
                         <div className="flex items-center justify-around flex-wrap gap-3">
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               MongoDB
                             </span>
                           </div>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Cloudinary
                             </span>
                           </div>
                           <div className="bg-white dark:bg-gray-700 px-4 py-2 rounded-md shadow-md">
-                            <span className="font-semibold text-gray-800 dark:text-gray-200">
+                            <span className="font-[600] text-gray-800 dark:text-gray-200">
                               Firebase
                             </span>
                           </div>
@@ -710,7 +710,7 @@ const MediAppointCare = () => {
 
                 {/* Appointment Booking Flow */}
                 <section className="bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     📅 Appointment Booking Flow
                   </h2>
                   <div className="space-y-4">
@@ -791,7 +791,7 @@ const MediAppointCare = () => {
                       `}
                       >
                         <div
-                          className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-white
+                          className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-[600] text-white
                         ${flow.color === "blue" ? "bg-blue-500" : ""}
                         ${flow.color === "green" ? "bg-green-500" : ""}
                         ${flow.color === "purple" ? "bg-purple-500" : ""}
@@ -801,7 +801,7 @@ const MediAppointCare = () => {
                           {flow.step}
                         </div>
                         <div className="flex-1">
-                          <div className="font-bold text-gray-900 dark:text-white">
+                          <div className="font-[600] text-gray-900 dark:text-white">
                             {flow.actor}
                           </div>
                           <div className="text-gray-700 dark:text-gray-300">
@@ -815,7 +815,7 @@ const MediAppointCare = () => {
 
                 {/* Prescription Writing Flow */}
                 <section className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     📝 Prescription Writing Flow
                   </h2>
                   <div className="space-y-4">
@@ -909,7 +909,7 @@ const MediAppointCare = () => {
                       `}
                       >
                         <div
-                          className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-white
+                          className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-[600] text-white
                         ${flow.color === "blue" ? "bg-blue-500" : ""}
                         ${flow.color === "green" ? "bg-green-500" : ""}
                         ${flow.color === "purple" ? "bg-purple-500" : ""}
@@ -919,7 +919,7 @@ const MediAppointCare = () => {
                           {flow.step}
                         </div>
                         <div className="flex-1">
-                          <div className="font-bold text-gray-900 dark:text-white">
+                          <div className="font-[600] text-gray-900 dark:text-white">
                             {flow.actor}
                           </div>
                           <div className="text-gray-700 dark:text-gray-300">
@@ -933,13 +933,13 @@ const MediAppointCare = () => {
 
                 {/* User Authentication Flow */}
                 <section className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🔐 User Authentication Flow
                   </h2>
                   <div className="grid md:grid-cols-2 gap-6">
                     {/* Login Flow */}
                     <div className="space-y-3">
-                      <h3 className="font-bold text-lg text-gray-900 dark:text-white mb-4">
+                      <h3 className="font-[600] text-lg text-gray-900 dark:text-white mb-4">
                         Login Process
                       </h3>
                       {[
@@ -957,7 +957,7 @@ const MediAppointCare = () => {
                           key={index}
                           className="flex items-center gap-3 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-purple-200 dark:border-purple-700"
                         >
-                          <div className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-xs font-bold">
+                          <div className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-xs font-[600]">
                             {index + 1}
                           </div>
                           <span className="text-gray-800 dark:text-gray-200 text-sm">
@@ -969,7 +969,7 @@ const MediAppointCare = () => {
 
                     {/* Protected Route Access */}
                     <div className="space-y-3">
-                      <h3 className="font-bold text-lg text-gray-900 dark:text-white mb-4">
+                      <h3 className="font-[600] text-lg text-gray-900 dark:text-white mb-4">
                         Protected Routes
                       </h3>
                       {[
@@ -986,7 +986,7 @@ const MediAppointCare = () => {
                           key={index}
                           className="flex items-center gap-3 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-pink-200 dark:border-pink-700"
                         >
-                          <div className="flex-shrink-0 w-6 h-6 rounded-full bg-pink-500 text-white flex items-center justify-center text-xs font-bold">
+                          <div className="flex-shrink-0 w-6 h-6 rounded-full bg-pink-500 text-white flex items-center justify-center text-xs font-[600]">
                             {index + 1}
                           </div>
                           <span className="text-gray-800 dark:text-gray-200 text-sm">
@@ -1000,7 +1000,7 @@ const MediAppointCare = () => {
 
                 {/* Database Schema Overview */}
                 <section className="bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🗄️ Database Schema Overview
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -1090,7 +1090,7 @@ const MediAppointCare = () => {
                         <div className="text-4xl mb-3 text-center">
                           {schema.icon}
                         </div>
-                        <h3 className="font-bold text-lg text-center mb-3 text-gray-900 dark:text-white">
+                        <h3 className="font-[600] text-lg text-center mb-3 text-gray-900 dark:text-white">
                           {schema.model}
                         </h3>
                         <ul className="space-y-1">
@@ -1115,7 +1115,7 @@ const MediAppointCare = () => {
             {activeTab === "demo" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     🔑 Demo Credentials
                   </h2>
                   <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg">
@@ -1130,23 +1130,23 @@ const MediAppointCare = () => {
                         <div className="text-4xl mb-3 text-center">
                           {cred.icon}
                         </div>
-                        <h3 className="text-xl font-bold mb-4 text-center text-gray-900 dark:text-white">
+                        <h3 className="text-xl font-[600] mb-4 text-center text-gray-900 dark:text-white">
                           {cred.role}
                         </h3>
                         <div className="space-y-3">
                           <div>
-                            <span className="text-gray-700 dark:text-gray-300 text-sm font-semibold">
+                            <span className="text-gray-700 dark:text-gray-300 text-sm font-[600]">
                               Phone:
                             </span>
-                            <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-semibold">
+                            <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-[600]">
                               {cred.phone}
                             </div>
                           </div>
                           <div>
-                            <span className="text-gray-700 dark:text-gray-300 text-sm font-semibold">
+                            <span className="text-gray-700 dark:text-gray-300 text-sm font-[600]">
                               Password:
                             </span>
-                            <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-semibold">
+                            <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-[600]">
                               {cred.password}
                             </div>
                           </div>
@@ -1155,7 +1155,7 @@ const MediAppointCare = () => {
                     ))}
                   </div>
                   <div className="mt-6 p-4 bg-yellow-100 dark:bg-yellow-900/30 border-2 border-yellow-400 dark:border-yellow-600 rounded-lg">
-                    <p className="text-yellow-800 dark:text-yellow-300 font-semibold">
+                    <p className="text-yellow-800 dark:text-yellow-300 font-[600]">
                       <strong>⚠️ Note:</strong> These are demo accounts for
                       testing purposes. Feel free to explore all features!
                     </p>
@@ -1163,12 +1163,12 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     📊 Quick Architecture Overview
                   </h2>
                   <div className="space-y-4">
                     <div className="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-md border-l-4 border-blue-500">
-                      <h4 className="font-bold text-lg text-blue-700 dark:text-blue-300 mb-2">
+                      <h4 className="font-[600] text-lg text-blue-700 dark:text-blue-300 mb-2">
                         📱 Client Layer
                       </h4>
                       <p className="text-gray-800 dark:text-gray-200">
@@ -1176,7 +1176,7 @@ const MediAppointCare = () => {
                       </p>
                     </div>
                     <div className="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-md border-l-4 border-green-500">
-                      <h4 className="font-bold text-lg text-green-700 dark:text-green-300 mb-2">
+                      <h4 className="font-[600] text-lg text-green-700 dark:text-green-300 mb-2">
                         🔌 API Layer
                       </h4>
                       <p className="text-gray-800 dark:text-gray-200">
@@ -1184,7 +1184,7 @@ const MediAppointCare = () => {
                       </p>
                     </div>
                     <div className="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-md border-l-4 border-purple-500">
-                      <h4 className="font-bold text-lg text-purple-700 dark:text-purple-300 mb-2">
+                      <h4 className="font-[600] text-lg text-purple-700 dark:text-purple-300 mb-2">
                         ⚙️ Business Logic
                       </h4>
                       <p className="text-gray-800 dark:text-gray-200">
@@ -1192,7 +1192,7 @@ const MediAppointCare = () => {
                       </p>
                     </div>
                     <div className="bg-white dark:bg-gray-800 p-5 rounded-lg shadow-md border-l-4 border-orange-500">
-                      <h4 className="font-bold text-lg text-orange-700 dark:text-orange-300 mb-2">
+                      <h4 className="font-[600] text-lg text-orange-700 dark:text-orange-300 mb-2">
                         💾 Data Layer
                       </h4>
                       <p className="text-gray-800 dark:text-gray-200">
@@ -1203,16 +1203,16 @@ const MediAppointCare = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-green-50 to-teal-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     🚀 Try It Out
                   </h2>
                   <div className="space-y-4">
-                    <p className="text-gray-800 dark:text-gray-200 text-lg font-semibold">
+                    <p className="text-gray-800 dark:text-gray-200 text-lg font-[600]">
                       Visit the live application and explore these workflows:
                     </p>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-blue-600 dark:text-blue-400 font-bold text-lg">
+                        <span className="text-blue-600 dark:text-blue-400 font-[600] text-lg">
                           1.
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
@@ -1224,7 +1224,7 @@ const MediAppointCare = () => {
                         </span>
                       </li>
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-green-600 dark:text-green-400 font-bold text-lg">
+                        <span className="text-green-600 dark:text-green-400 font-[600] text-lg">
                           2.
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
@@ -1236,7 +1236,7 @@ const MediAppointCare = () => {
                         </span>
                       </li>
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-purple-600 dark:text-purple-400 font-bold text-lg">
+                        <span className="text-purple-600 dark:text-purple-400 font-[600] text-lg">
                           3.
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
@@ -1257,7 +1257,7 @@ const MediAppointCare = () => {
                       <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="mt-4 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-md font-semibold transition-colors"
+                        className="mt-4 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-md font-[600] transition-colors"
                       >
                         🌐 Launch Application
                       </motion.button>
@@ -1276,7 +1276,7 @@ const MediAppointCare = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-800 dark:to-purple-800 rounded-xl p-8 text-center shadow-2xl border-2 border-blue-300 dark:border-blue-700"
           >
-            <h2 className="text-3xl font-bold mb-4 text-white">
+            <h2 className="text-3xl font-[600] mb-4 text-white">
               Interested in This Project?
             </h2>
             <p className="text-gray-100 dark:text-gray-200 mb-6 text-lg">
@@ -1291,7 +1291,7 @@ const MediAppointCare = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-md font-semibold transition-colors"
+                  className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-md font-[600] transition-colors"
                 >
                   View Live Demo
                 </motion.button>
@@ -1300,7 +1300,7 @@ const MediAppointCare = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-8 py-3 bg-white text-blue-700 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 rounded-md font-semibold transition-colors shadow-lg"
+                  className="px-8 py-3 bg-white text-blue-700 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 rounded-md font-[600] transition-colors shadow-lg"
                 >
                   Contact Me
                 </motion.button>
@@ -1314,3 +1314,4 @@ const MediAppointCare = () => {
 };
 
 export default MediAppointCare;
+

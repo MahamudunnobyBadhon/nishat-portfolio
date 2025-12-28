@@ -98,7 +98,7 @@ const EBuy = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-[#1a1a2e]">
+      <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-[#FBFBFB] dark:bg-[#252734] tracking-wider font-mon">
         <div className="max-w-7xl mx-auto">
           {/* Back Button */}
           <Link href="/#projects">
@@ -129,7 +129,7 @@ const EBuy = () => {
                   transition={{ delay: 0.2 }}
                   className="inline-block mb-4"
                 >
-                  <span className="px-4 py-2 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-full text-sm font-bold shadow-lg">
+                  <span className="px-4 py-2 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-full text-sm font-[600] shadow-lg">
                     🛒 E-Commerce Platform
                   </span>
                 </motion.div>
@@ -139,7 +139,7 @@ const EBuy = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
-                  className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4"
+                  className="text-5xl md:text-6xl lg:text-7xl font-[700] mb-4"
                 >
                   <span className="bg-gradient-to-r from-orange-600 via-red-600 to-pink-600 bg-clip-text text-transparent">
                     eBuy
@@ -151,7 +151,7 @@ const EBuy = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4 }}
-                  className="text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-3 font-semibold"
+                  className="text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-3 font-[600]"
                 >
                   Modern E-Commerce Shopping Platform
                 </motion.p>
@@ -163,7 +163,7 @@ const EBuy = () => {
                   transition={{ delay: 0.5 }}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 rounded-full shadow-md border border-gray-200 dark:border-gray-700 mb-6"
                 >
-                  <span className="text-orange-600 dark:text-orange-400 font-bold">●</span>
+                  <span className="text-orange-600 dark:text-orange-400 font-[600]">●</span>
                   <span className="text-gray-700 dark:text-gray-300 font-medium">
                     React.js + Tailwind CSS
                   </span>
@@ -180,21 +180,21 @@ const EBuy = () => {
                     <span className="text-2xl">🛍️</span>
                     <div className="text-left">
                       <div className="text-sm text-gray-500 dark:text-gray-400">Shopping</div>
-                      <div className="font-bold text-gray-900 dark:text-white">Full Featured</div>
+                      <div className="font-[600] text-gray-900 dark:text-white">Full Featured</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                     <span className="text-2xl">⚡</span>
                     <div className="text-left">
                       <div className="text-sm text-gray-500 dark:text-gray-400">Search</div>
-                      <div className="font-bold text-gray-900 dark:text-white">Ultra Fast</div>
+                      <div className="font-[600] text-gray-900 dark:text-white">Ultra Fast</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                     <span className="text-2xl">📱</span>
                     <div className="text-left">
                       <div className="text-sm text-gray-500 dark:text-gray-400">Design</div>
-                      <div className="font-bold text-orange-600 dark:text-orange-400">Responsive</div>
+                      <div className="font-[600] text-orange-600 dark:text-orange-400">Responsive</div>
                     </div>
                   </div>
                 </motion.div>
@@ -206,19 +206,19 @@ const EBuy = () => {
                   transition={{ delay: 0.7 }}
                   className="flex flex-wrap justify-center gap-3 mb-8"
                 >
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 text-blue-800 dark:text-blue-200 rounded-full text-sm font-bold shadow-md border-2 border-blue-300 dark:border-blue-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 text-blue-800 dark:text-blue-200 rounded-full text-sm font-[600] shadow-md border-2 border-blue-300 dark:border-blue-700">
                     React.js
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-cyan-100 to-cyan-200 dark:from-cyan-900 dark:to-cyan-800 text-cyan-800 dark:text-cyan-200 rounded-full text-sm font-bold shadow-md border-2 border-cyan-300 dark:border-cyan-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-cyan-100 to-cyan-200 dark:from-cyan-900 dark:to-cyan-800 text-cyan-800 dark:text-cyan-200 rounded-full text-sm font-[600] shadow-md border-2 border-cyan-300 dark:border-cyan-700">
                     Tailwind CSS
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-purple-100 to-purple-200 dark:from-purple-900 dark:to-purple-800 text-purple-800 dark:text-purple-200 rounded-full text-sm font-bold shadow-md border-2 border-purple-300 dark:border-purple-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-purple-100 to-purple-200 dark:from-purple-900 dark:to-purple-800 text-purple-800 dark:text-purple-200 rounded-full text-sm font-[600] shadow-md border-2 border-purple-300 dark:border-purple-700">
                     DaisyUI
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-green-100 to-green-200 dark:from-green-900 dark:to-green-800 text-green-800 dark:text-green-200 rounded-full text-sm font-bold shadow-md border-2 border-green-300 dark:border-green-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-green-100 to-green-200 dark:from-green-900 dark:to-green-800 text-green-800 dark:text-green-200 rounded-full text-sm font-[600] shadow-md border-2 border-green-300 dark:border-green-700">
                     Context API
                   </span>
-                  <span className="px-5 py-2.5 bg-gradient-to-r from-orange-100 to-orange-200 dark:from-orange-900 dark:to-orange-800 text-orange-800 dark:text-orange-200 rounded-full text-sm font-bold shadow-md border-2 border-orange-300 dark:border-orange-700">
+                  <span className="px-5 py-2.5 bg-gradient-to-r from-orange-100 to-orange-200 dark:from-orange-900 dark:to-orange-800 text-orange-800 dark:text-orange-200 rounded-full text-sm font-[600] shadow-md border-2 border-orange-300 dark:border-orange-700">
                     Fake Store API
                   </span>
                 </motion.div>
@@ -238,7 +238,7 @@ const EBuy = () => {
                     <motion.button
                       whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(249, 115, 22, 0.3)" }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white rounded-xl font-bold text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
+                      className="px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white rounded-xl font-[600] text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
                     >
                       <span className="text-2xl">🌐</span>
                       View Live Demo
@@ -252,7 +252,7 @@ const EBuy = () => {
                     <motion.button
                       whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(0, 0, 0, 0.3)" }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white rounded-xl font-bold text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
+                      className="px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white rounded-xl font-[600] text-lg shadow-xl transition-all duration-300 flex items-center gap-2"
                     >
                       <span className="text-2xl">💻</span>
                       View Source Code
@@ -311,7 +311,7 @@ const EBuy = () => {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-6 py-3 font-semibold capitalize transition-colors ${
+                className={`px-6 py-3 font-[600] capitalize transition-colors ${
                   activeTab === tab
                     ? "border-b-4 border-orange-600 text-orange-600 dark:text-orange-400 bg-orange-50 dark:bg-orange-900/20"
                     : "text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800/50"
@@ -334,7 +334,7 @@ const EBuy = () => {
             {activeTab === "overview" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-orange-50 to-red-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     🎯 Overview
                   </h2>
                   <p className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed mb-6">
@@ -350,7 +350,7 @@ const EBuy = () => {
                         className="bg-white dark:bg-gray-800 p-6 rounded-lg hover:shadow-2xl transition-all duration-300 border-2 border-gray-200 dark:border-gray-700 hover:border-orange-400 dark:hover:border-orange-500"
                       >
                         <div className="text-4xl mb-3">{highlight.icon}</div>
-                        <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+                        <h3 className="text-xl font-[600] mb-2 text-gray-900 dark:text-white">
                           {highlight.title}
                         </h3>
                         <p className="text-gray-700 dark:text-gray-300">{highlight.description}</p>
@@ -360,12 +360,12 @@ const EBuy = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-red-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     ✨ Key Accomplishments
                   </h2>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-l-4 border-orange-500">
-                      <h3 className="font-bold text-lg text-orange-700 dark:text-orange-300 mb-3">
+                      <h3 className="font-[600] text-lg text-orange-700 dark:text-orange-300 mb-3">
                         Smart LocalStorage Implementation
                       </h3>
                       <p className="text-gray-700 dark:text-gray-300">
@@ -374,7 +374,7 @@ const EBuy = () => {
                       </p>
                     </div>
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-                      <h3 className="font-bold text-lg text-blue-700 dark:text-blue-300 mb-3">
+                      <h3 className="font-[600] text-lg text-blue-700 dark:text-blue-300 mb-3">
                         Context API Integration
                       </h3>
                       <p className="text-gray-700 dark:text-gray-300">
@@ -383,7 +383,7 @@ const EBuy = () => {
                       </p>
                     </div>
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-l-4 border-green-500">
-                      <h3 className="font-bold text-lg text-green-700 dark:text-green-300 mb-3">
+                      <h3 className="font-[600] text-lg text-green-700 dark:text-green-300 mb-3">
                         Reusable Components
                       </h3>
                       <p className="text-gray-700 dark:text-gray-300">
@@ -392,7 +392,7 @@ const EBuy = () => {
                       </p>
                     </div>
                     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-l-4 border-purple-500">
-                      <h3 className="font-bold text-lg text-purple-700 dark:text-purple-300 mb-3">
+                      <h3 className="font-[600] text-lg text-purple-700 dark:text-purple-300 mb-3">
                         Advanced Features
                       </h3>
                       <p className="text-gray-700 dark:text-gray-300">
@@ -409,7 +409,7 @@ const EBuy = () => {
             {activeTab === "features" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     👤 User Features
                   </h2>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -426,7 +426,7 @@ const EBuy = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     👨‍💼 Admin Features
                   </h2>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -448,7 +448,7 @@ const EBuy = () => {
             {activeTab === "tech" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     ⚛️ Frontend Technologies
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -457,7 +457,7 @@ const EBuy = () => {
                         key={index}
                         className="bg-white dark:bg-gray-800 p-5 rounded-lg hover:shadow-xl transition-all duration-300 border-2 border-blue-200 dark:border-blue-800 hover:border-blue-400 dark:hover:border-blue-500"
                       >
-                        <div className="font-bold text-lg text-blue-700 dark:text-blue-300">
+                        <div className="font-[600] text-lg text-blue-700 dark:text-blue-300">
                           {tech.name}
                         </div>
                         <div className="text-sm text-gray-700 dark:text-gray-300 mt-1">
@@ -469,7 +469,7 @@ const EBuy = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     🔧 Backend & Tools
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -478,7 +478,7 @@ const EBuy = () => {
                         key={index}
                         className="bg-white dark:bg-gray-800 p-5 rounded-lg hover:shadow-xl transition-all duration-300 border-2 border-green-200 dark:border-green-800 hover:border-green-400 dark:hover:border-green-500"
                       >
-                        <div className="font-bold text-lg text-green-700 dark:text-green-300">
+                        <div className="font-[600] text-lg text-green-700 dark:text-green-300">
                           {tech.name}
                         </div>
                         <div className="text-sm text-gray-700 dark:text-gray-300 mt-1">
@@ -490,7 +490,7 @@ const EBuy = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-orange-50 to-red-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-6 text-gray-900 dark:text-white">
                     📦 NPM Packages Used
                   </h2>
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -507,7 +507,7 @@ const EBuy = () => {
                         key={index}
                         className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md border border-orange-200 dark:border-orange-800 text-center"
                       >
-                        <span className="text-orange-700 dark:text-orange-300 font-semibold">
+                        <span className="text-orange-700 dark:text-orange-300 font-[600]">
                           {pkg}
                         </span>
                       </div>
@@ -521,7 +521,7 @@ const EBuy = () => {
             {activeTab === "demo" && (
               <div className="space-y-8">
                 <section className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     🔑 Admin Credentials
                   </h2>
                   <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg">
@@ -529,29 +529,29 @@ const EBuy = () => {
                   </p>
                   <div className="max-w-md mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg border-2 border-purple-300 dark:border-purple-700 shadow-lg">
                     <div className="text-4xl mb-3 text-center">👨‍💼</div>
-                    <h3 className="text-xl font-bold mb-4 text-center text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-[600] mb-4 text-center text-gray-900 dark:text-white">
                       Admin Account
                     </h3>
                     <div className="space-y-3">
                       <div>
-                        <span className="text-gray-700 dark:text-gray-300 text-sm font-semibold">
+                        <span className="text-gray-700 dark:text-gray-300 text-sm font-[600]">
                           Username:
                         </span>
-                        <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-semibold">
+                        <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-[600]">
                           {adminCredentials.username}
                         </div>
                       </div>
                       <div>
-                        <span className="text-gray-700 dark:text-gray-300 text-sm font-semibold">
+                        <span className="text-gray-700 dark:text-gray-300 text-sm font-[600]">
                           Password:
                         </span>
-                        <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-semibold">
+                        <div className="font-mono bg-gray-100 dark:bg-gray-900 p-3 rounded mt-1 text-gray-900 dark:text-gray-100 font-[600]">
                           {adminCredentials.password}
                         </div>
                       </div>
                     </div>
                     <div className="mt-4 p-3 bg-blue-100 dark:bg-blue-900/30 border-2 border-blue-300 dark:border-blue-600 rounded-lg">
-                      <p className="text-blue-800 dark:text-blue-300 text-sm font-semibold">
+                      <p className="text-blue-800 dark:text-blue-300 text-sm font-[600]">
                         ℹ️ {adminCredentials.note}
                       </p>
                     </div>
@@ -559,37 +559,37 @@ const EBuy = () => {
                 </section>
 
                 <section className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-900 rounded-xl p-8 shadow-xl border border-gray-200 dark:border-gray-700">
-                  <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+                  <h2 className="text-3xl font-[600] mb-4 text-gray-900 dark:text-white">
                     🚀 Try It Out
                   </h2>
                   <div className="space-y-4">
-                    <p className="text-gray-800 dark:text-gray-200 text-lg font-semibold">
+                    <p className="text-gray-800 dark:text-gray-200 text-lg font-[600]">
                       Explore different features of the platform:
                     </p>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-orange-600 dark:text-orange-400 font-bold text-lg">1.</span>
+                        <span className="text-orange-600 dark:text-orange-400 font-[600] text-lg">1.</span>
                         <span className="text-gray-800 dark:text-gray-200">
                           <strong className="text-orange-700 dark:text-orange-300">Sign Up / Login:</strong>{" "}
                           Create an account or login to browse products
                         </span>
                       </li>
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-blue-600 dark:text-blue-400 font-bold text-lg">2.</span>
+                        <span className="text-blue-600 dark:text-blue-400 font-[600] text-lg">2.</span>
                         <span className="text-gray-800 dark:text-gray-200">
                           <strong className="text-blue-700 dark:text-blue-300">Browse & Search:</strong>{" "}
                           Search products by keywords or filter by categories
                         </span>
                       </li>
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-green-600 dark:text-green-400 font-bold text-lg">3.</span>
+                        <span className="text-green-600 dark:text-green-400 font-[600] text-lg">3.</span>
                         <span className="text-gray-800 dark:text-gray-200">
                           <strong className="text-green-700 dark:text-green-300">Shopping Cart:</strong>{" "}
                           Add products to cart and proceed to checkout
                         </span>
                       </li>
                       <li className="flex items-start gap-3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                        <span className="text-purple-600 dark:text-purple-400 font-bold text-lg">4.</span>
+                        <span className="text-purple-600 dark:text-purple-400 font-[600] text-lg">4.</span>
                         <span className="text-gray-800 dark:text-gray-200">
                           <strong className="text-purple-700 dark:text-purple-300">Admin Dashboard:</strong>{" "}
                           Login with admin credentials to manage products
@@ -605,7 +605,7 @@ const EBuy = () => {
                       <motion.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="mt-4 px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white rounded-md font-semibold transition-colors shadow-lg"
+                        className="mt-4 px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700 text-white rounded-md font-[600] transition-colors shadow-lg"
                       >
                         🌐 Launch Application
                       </motion.button>
@@ -624,7 +624,7 @@ const EBuy = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-16 bg-gradient-to-r from-orange-600 to-red-600 dark:from-orange-800 dark:to-red-800 rounded-xl p-8 text-center shadow-2xl border-2 border-orange-300 dark:border-orange-700"
           >
-            <h2 className="text-3xl font-bold mb-4 text-white">
+            <h2 className="text-3xl font-[600] mb-4 text-white">
               Interested in This Project?
             </h2>
             <p className="text-gray-100 dark:text-gray-200 mb-6 text-lg">
@@ -639,7 +639,7 @@ const EBuy = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-8 py-3 bg-white text-orange-700 hover:bg-gray-100 rounded-md font-semibold transition-colors shadow-lg"
+                  className="px-8 py-3 bg-white text-orange-700 hover:bg-gray-100 rounded-md font-[600] transition-colors shadow-lg"
                 >
                   View Live Demo
                 </motion.button>
@@ -648,7 +648,7 @@ const EBuy = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-8 py-3 bg-white text-orange-700 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 rounded-md font-semibold transition-colors shadow-lg"
+                  className="px-8 py-3 bg-white text-orange-700 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 rounded-md font-[600] transition-colors shadow-lg"
                 >
                   Contact Me
                 </motion.button>
@@ -662,3 +662,4 @@ const EBuy = () => {
 };
 
 export default EBuy;
+
