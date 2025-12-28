@@ -1,6 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter, usePathname } from "next/navigation";
 import Logo from "../assests/images/logo.png";
 import Ham from "../assests/images/burger-menu.svg";
 import Close from "../assests/images/cross.png";
@@ -10,9 +12,44 @@ import "./Header.css";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  // Handle hash navigation when landing on home page from detail page
+  useEffect(() => {
+    if (pathname === "/" && window.location.hash) {
+      const sectionId = window.location.hash.substring(1);
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  }, [pathname]);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
+  };
+
+  const handleNavigation = (sectionId) => {
+    const isHomePage = pathname === "/";
+
+    if (isHomePage) {
+      // If on home page, just scroll to section
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      // If on another page, navigate to home page with section hash
+      router.push(`/#${sectionId}`);
+    }
+
+    // Close mobile menu if open
+    if (menuOpen) {
+      setMenuOpen(false);
+    }
   };
 
   return (
@@ -37,42 +74,42 @@ const Header = () => {
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center">
           <div className="flex items-center gap-[0.75rem] lg:gap-[0.8rem] font-poppins">
-            <a
-              href="#home"
-              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition"
+            <button
+              onClick={() => handleNavigation("home")}
+              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition cursor-pointer"
             >
               Home
-            </a>
-            <a
-              href="#about"
-              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition"
+            </button>
+            <button
+              onClick={() => handleNavigation("about")}
+              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition cursor-pointer"
             >
               About
-            </a>
-            <a
-              href="#skills"
-              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition"
+            </button>
+            <button
+              onClick={() => handleNavigation("skills")}
+              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition cursor-pointer"
             >
               Skills
-            </a>
-            <a
-              href="#projects"
-              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition"
+            </button>
+            <button
+              onClick={() => handleNavigation("projects")}
+              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition cursor-pointer"
             >
               Projects
-            </a>
-            <a
-              href="#education"
-              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition"
+            </button>
+            <button
+              onClick={() => handleNavigation("education")}
+              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition cursor-pointer"
             >
               Education
-            </a>
-            <a
-              href="#contacts"
-              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition"
+            </button>
+            <button
+              onClick={() => handleNavigation("contacts")}
+              className="lg:py-[0.5rem] lg:px-[0.5rem] xl:py-[0.75rem] xl:px-[1rem] hover:underline hover:text-[#FD6F00] transition cursor-pointer"
             >
               Contacts
-            </a>
+            </button>
             <DownloadButton />
             <DarkModeToggle />
 
@@ -103,48 +140,42 @@ const Header = () => {
               />
             </div>
             <div className="flex flex-col items-center justify-center flex-grow">
-              <a
-                href="#home"
-                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00]"
-                onClick={toggleMenu}
+              <button
+                onClick={() => handleNavigation("home")}
+                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00] cursor-pointer"
               >
                 Home
-              </a>
-              <a
-                href="#about"
-                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00]"
-                onClick={toggleMenu}
+              </button>
+              <button
+                onClick={() => handleNavigation("about")}
+                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00] cursor-pointer"
               >
                 About Me
-              </a>
-              <a
-                href="#skills"
-                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00]"
-                onClick={toggleMenu}
+              </button>
+              <button
+                onClick={() => handleNavigation("skills")}
+                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00] cursor-pointer"
               >
                 Skills
-              </a>
-              <a
-                href="#projects"
-                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00]"
-                onClick={toggleMenu}
+              </button>
+              <button
+                onClick={() => handleNavigation("projects")}
+                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00] cursor-pointer"
               >
                 Projects
-              </a>
-              <a
-                href="#education"
-                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00]"
-                onClick={toggleMenu}
+              </button>
+              <button
+                onClick={() => handleNavigation("education")}
+                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00] cursor-pointer"
               >
                 Education
-              </a>
-              <a
-                href="#contacts"
-                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00]"
-                onClick={toggleMenu}
+              </button>
+              <button
+                onClick={() => handleNavigation("contacts")}
+                className="text-white py-4 transition-opacity duration-300 ease-in-out hover:underline hover:text-[#FD6F00] cursor-pointer"
               >
                 Contacts
-              </a>
+              </button>
               <button
                 className="bg-[#FD6F00] py-2 px-4 rounded-md text-white"
                 onClick={toggleMenu}
