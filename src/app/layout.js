@@ -1,13 +1,13 @@
 import { Inter, Cormorant_Garamond, Poppins, Montserrat, Noto_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./component/Header";
+import CustomCursor from "./component/CustomCursor";
 const inter = Inter({ subsets: ["latin"] });
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   variable: "--font-cor",
   weight: ["300", "400", "500", "600", "700"],
 });
-
 
 const notoSans = Noto_Sans({
   subsets: ["latin"],
@@ -36,10 +36,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html className={`${cormorant.variable}  ${poppins.variable} ${montserrat.variable} ${notoSans.variable}  font-cor  antialiased`} lang="en">
-
+    <html
+      className={`${cormorant.variable}  ${poppins.variable} ${montserrat.variable} ${notoSans.variable}  font-cor  antialiased`}
+      lang="en"
+    >
       <body>
-
+        <CustomCursor />
         {children}
       </body>
     </html>
