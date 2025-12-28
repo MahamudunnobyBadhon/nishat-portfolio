@@ -162,10 +162,10 @@ const Contact = () => {
                   whileHover={{ scale: 1.05 }}
                 >
                   <div className="text-2xl font-[700] text-blue-600 dark:text-blue-400">
-                    24/7
+                    3+
                   </div>
                   <div className="text-sm font-[500] text-gray-600 dark:text-gray-400">
-                    Available
+                    Years Experience
                   </div>
                 </motion.div>
                 <motion.div
@@ -173,10 +173,10 @@ const Contact = () => {
                   whileHover={{ scale: 1.05 }}
                 >
                   <div className="text-2xl font-[700] text-green-600 dark:text-green-400">
-                    &lt;24h
+                    10+
                   </div>
                   <div className="text-sm font-[500] text-gray-600 dark:text-gray-400">
-                    Response
+                    Projects Built
                   </div>
                 </motion.div>
               </div>
