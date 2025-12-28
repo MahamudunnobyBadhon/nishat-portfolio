@@ -117,7 +117,7 @@ const Footer = () => {
       </div> */}
       <div className=" bg-[#545454] dark:bg-[#252734] text-[#FFFFFF] tracking-widest h-[80px] flex items-center justify-center">
         <p className="text-center text-xl">
-          © 2023{" "}
+          © 2026{" "}
           <span className="text-[#FD6F00] font-[700] text-xl">Nishat</span> All
           Rights Reserved , Inc.
         </p>

@@ -64,11 +64,12 @@ const MySkills = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6 }}
+        className="text-center mb-12"
       >
-        <p className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55 text-center pb-4">
-          || Technical Skills
+        <p className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90 pb-4">
+          Technical Skills
         </p>
-        <p className="text-center text-gray-600 dark:text-gray-400 mb-12 text-lg">
+        <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-[500]">
           3+ Years of Experience with Modern Technologies
         </p>
       </motion.div>
@@ -84,7 +85,7 @@ const MySkills = () => {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, delay: categoryIndex * 0.2 }}
             >
-              <h3 className="text-2xl font-bold text-center mb-8 text-[#FD6F00]">
+              <h3 className="text-xl md:text-2xl font-[600] tracking-wide text-center mb-8 text-[#FD6F00]">
                 {category}
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -110,7 +111,7 @@ const MySkills = () => {
                     <div className="mb-3 group-hover:scale-110 transition-transform duration-300">
                       <ThreeDIcon src={skill.src} alt={skill.name} />
                     </div>
-                    <p className="text-center text-sm md:text-base font-semibold text-gray-800 dark:text-gray-200 group-hover:text-[#FD6F00] transition-colors duration-300">
+                    <p className="text-center text-sm md:text-base font-[600] tracking-wide text-gray-800 dark:text-gray-200 group-hover:text-[#FD6F00] transition-colors duration-300">
                       {skill.name}
                     </p>
                   </motion.div>
@@ -129,30 +130,30 @@ const MySkills = () => {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6 }}
       >
-        <h3 className="text-2xl font-bold text-center mb-8">
+        <h3 className="text-xl md:text-2xl font-[600] tracking-wide text-center mb-8">
           Professional Achievements
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#FD6F00]">40%</div>
-            <div className="text-lg font-semibold">
+            <div className="text-3xl font-[700] tracking-wide text-[#FD6F00]">40%</div>
+            <div className="text-lg font-[600] tracking-wide">
               Core Web Vitals Improvement
             </div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm font-[500] text-gray-600 dark:text-gray-400">
               React to Next.js Migration
             </div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-green-600">30%</div>
-            <div className="text-lg font-semibold">System Efficiency Boost</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-3xl font-[700] tracking-wide text-green-600">30%</div>
+            <div className="text-lg font-[600] tracking-wide">System Efficiency Boost</div>
+            <div className="text-sm font-[500] text-gray-600 dark:text-gray-400">
               Performance Optimization
             </div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">6+</div>
-            <div className="text-lg font-semibold">Enterprise ERP Modules</div>
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-3xl font-[700] tracking-wide text-blue-600">6+</div>
+            <div className="text-lg font-[600] tracking-wide">Enterprise ERP Modules</div>
+            <div className="text-sm font-[500] text-gray-600 dark:text-gray-400">
               Full SDLC Management
             </div>
           </div>

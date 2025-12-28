@@ -14,11 +14,11 @@ const Projects = () => {
   return (
     <div className=" pt-32 lg:pt-48">
       {/* Text Section - Shows first on mobile */}
-      <div className="flex flex-col items-center lg:hidden mb-8">
-        <p className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55">
-          || Projects
+      <div className="flex flex-col items-center lg:hidden mb-12">
+        <p className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90">
+          Projects
         </p>
-        <p className="text-lg md:text-xl lg:text-2xl font-[600] tracking-wide opacity-55 my-4">
+        <p className="text-lg md:text-xl font-[500] tracking-wide text-gray-700 dark:text-gray-300 my-4">
           Reflects my capability
         </p>
       </div>
@@ -28,10 +28,10 @@ const Projects = () => {
         <div className="flex flex-col gap-8 lg:max-w-[550px]">
           {/* Text Section - Desktop only */}
           <div className="hidden lg:flex flex-col items-start">
-            <p className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55">
-              || Projects
+            <p className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90">
+              Projects
             </p>
-            <p className="text-lg md:text-xl lg:text-2xl font-[600] tracking-wide opacity-55 my-4">
+            <p className="text-lg md:text-xl font-[500] tracking-wide text-gray-700 dark:text-gray-300 my-4">
               Reflects my capability
             </p>
           </div>

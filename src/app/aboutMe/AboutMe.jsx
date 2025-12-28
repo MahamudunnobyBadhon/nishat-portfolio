@@ -50,29 +50,29 @@ const AboutMe = () => {
           variants={itemVariants}
         >
           <motion.p
-            className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55"
+            className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90"
             variants={itemVariants}
           >
-            || About Me
+            About Me
           </motion.p>
 
           <motion.div variants={itemVariants} className="space-y-4">
             <p className="text-base sm:text-lg font-[500] tracking-wide leading-relaxed text-gray-700 dark:text-gray-300">
-              <span className="font-bold text-[#FD6F00] text-lg">
+              <span className="font-[700] text-[#FD6F00] text-lg">
                 Full Stack Engineer
               </span>{" "}
               with{" "}
-              <span className="font-semibold text-[#FD6F00]">
+              <span className="font-[600] text-[#FD6F00]">
                 3+ years of experience
               </span>{" "}
               architecting scalable web platforms using the{" "}
-              <span className="font-semibold">MERN stack</span> (MongoDB,
+              <span className="font-[600]">MERN stack</span> (MongoDB,
               Express, React, Node.js).
             </p>
 
             <p className="text-base sm:text-lg font-[500] tracking-wide leading-relaxed text-gray-700 dark:text-gray-300">
               Proven track record of{" "}
-              <span className="font-semibold text-green-600">
+              <span className="font-[600] text-green-600">
                 improving system efficiency by 30%
               </span>
               , optimizing database performance, and leading frontend migrations
@@ -82,7 +82,7 @@ const AboutMe = () => {
             <p className="text-base sm:text-lg font-[500] tracking-wide leading-relaxed text-gray-700 dark:text-gray-300">
               Currently spearheading architectural migrations from React to
               Next.js, resulting in
-              <span className="font-semibold text-blue-600">
+              <span className="font-[600] text-blue-600">
                 {" "}
                 40% improvement in Core Web Vitals
               </span>{" "}
@@ -91,7 +91,7 @@ const AboutMe = () => {
 
             <div className="flex items-center space-x-2 pt-2">
               <LocationOnIcon className="text-[#FD6F00]" />
-              <span className="text-lg font-semibold">Dhaka, Bangladesh</span>
+              <span className="text-lg font-[600] tracking-wide">Dhaka, Bangladesh</span>
             </div>
           </motion.div>
 
@@ -101,18 +101,18 @@ const AboutMe = () => {
             className="grid grid-cols-2 gap-4 pt-4"
           >
             <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 p-4 rounded-lg border border-blue-500/20">
-              <h4 className="font-semibold text-blue-600 dark:text-blue-400">
+              <h4 className="font-[600] tracking-wide text-blue-600 dark:text-blue-400">
                 Frontend Expertise
               </h4>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm font-[500] text-gray-600 dark:text-gray-400">
                 React, Next.js, TypeScript
               </p>
             </div>
             <div className="bg-gradient-to-r from-green-500/10 to-teal-500/10 p-4 rounded-lg border border-green-500/20">
-              <h4 className="font-semibold text-green-600 dark:text-green-400">
+              <h4 className="font-[600] tracking-wide text-green-600 dark:text-green-400">
                 Backend Mastery
               </h4>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm font-[500] text-gray-600 dark:text-gray-400">
                 Node.js, Express, MongoDB
               </p>
             </div>

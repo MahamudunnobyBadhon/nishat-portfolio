@@ -38,10 +38,10 @@ const Education = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <p className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55 pb-4">
-          || Education & Career Journey
+        <p className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90 pb-4">
+          Education & Career Journey
         </p>
-        <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-[500] max-w-2xl mx-auto">
           Academic excellence combined with practical industry experience
         </p>
       </motion.div>
@@ -65,20 +65,20 @@ const Education = () => {
               </div>
               <div className="ml-8 bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 flex-1">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-xl font-bold text-gray-800 dark:text-white">
+                  <h3 className="text-xl font-[600] tracking-wide text-gray-800 dark:text-white">
                     Software Engineer
                   </h3>
-                  <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-[600]">
                     Current
                   </span>
                 </div>
-                <h4 className="text-lg text-[#FD6F00] font-semibold mb-2">
+                <h4 className="text-lg text-[#FD6F00] font-[600] tracking-wide mb-2">
                   Qlearn
                 </h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                <p className="text-sm font-[500] text-gray-600 dark:text-gray-400 mb-2">
                   May 2024 – Present
                 </p>
-                <p className="text-gray-700 dark:text-gray-300 text-sm">
+                <p className="text-gray-700 dark:text-gray-300 text-sm font-[500]">
                   Leading React to Next.js migrations, architecting REST APIs,
                   and implementing CI/CD pipelines
                 </p>
@@ -107,22 +107,22 @@ const Education = () => {
                 </div>
                 <div className="ml-8 bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 flex-1 hover:shadow-xl transition-shadow duration-300">
                   <div className="flex items-center justify-between mb-2">
-                    <h3 className="text-xl font-bold text-gray-800 dark:text-white">
+                    <h3 className="text-xl font-[600] tracking-wide text-gray-800 dark:text-white">
                       {item.title}
                     </h3>
                     {item.inProgress && (
-                      <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                      <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-[600]">
                         In Progress
                       </span>
                     )}
                   </div>
-                  <h4 className="text-lg text-[#FD6F00] font-semibold mb-2">
+                  <h4 className="text-lg text-[#FD6F00] font-[600] tracking-wide mb-2">
                     {item.institution}
                   </h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+                  <p className="text-sm font-[500] text-gray-600 dark:text-gray-400 mb-2">
                     {item.period}
                   </p>
-                  <p className="text-gray-700 dark:text-gray-300 text-sm">
+                  <p className="text-gray-700 dark:text-gray-300 text-sm font-[500]">
                     {item.details}
                   </p>
 

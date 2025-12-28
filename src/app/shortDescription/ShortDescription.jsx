@@ -71,10 +71,10 @@ const ShortDescription = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <p className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55 pb-4">
-          || Professional Excellence
+        <p className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90 pb-4">
+          Professional Excellence
         </p>
-        <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-[500] max-w-2xl mx-auto">
           Senior Full Stack Engineer with proven expertise in architecting
           scalable solutions
         </p>
@@ -116,10 +116,10 @@ const ShortDescription = () => {
 
               {/* Content */}
               <div className="text-center relative z-10">
-                <motion.h3 className="text-xl md:text-2xl font-bold mb-4 text-gray-800 dark:text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
+                <motion.h3 className="text-xl md:text-2xl font-[600] tracking-wide mb-4 text-gray-800 dark:text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
                   {quality.title}
                 </motion.h3>
-                <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                <p className="text-sm md:text-base font-[500] text-gray-700 dark:text-gray-300 leading-relaxed">
                   {quality.description}
                 </p>
               </div>

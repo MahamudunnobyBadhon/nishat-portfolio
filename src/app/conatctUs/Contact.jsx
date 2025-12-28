@@ -51,11 +51,8 @@ const Contact = () => {
     <div className="md:w-[600px] lg:w-full mx-auto pt-32 lg:pt-48">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-8">
         <div className="flex justify-start items-center">
-          {/* <p className="text-[80px] font-[800] tracking-wide text-center bg-clip-text text-transparent animate-gradient grid place-items-center">
-            || Contact me
-          </p> */}
-          <p className="text-xl md:text-3xl lg:text-4xl font-[600] tracking-wide opacity-55">
-            || Let's connect together
+          <p className="text-2xl md:text-3xl lg:text-4xl font-[600] tracking-wide text-[#FD6F00] opacity-90">
+            Let's Connect Together
           </p>
         </div>
         <div>
